@@ -16,8 +16,8 @@ export class EducationComponent implements OnInit {
     degree: new FormControl('',Validators.required),
     field: new FormControl('',Validators.required),
     grade: new FormControl('',Validators.required),
-    start_date: new FormControl('',Validators.required),
-    end_date: new FormControl('',Validators.required),
+    startDate: new FormControl('',Validators.required),
+    endDate: new FormControl('',Validators.required),
     description: new FormControl('',Validators.required)
   })
 

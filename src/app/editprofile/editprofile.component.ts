@@ -12,10 +12,10 @@ export class EditprofileComponent implements OnInit {
 
   profileForm = new FormGroup({
     id: new FormControl('', Validators.required),
-    first_name: new FormControl('',Validators.required),
-    last_name: new FormControl('',Validators.required),
+    firstName: new FormControl('',Validators.required),
+    lastName: new FormControl('',Validators.required),
     dob: new FormControl('',Validators.required),
-    contact_no: new FormControl('',Validators.required),
+    contactNo: new FormControl('',Validators.required),
     description: new FormControl('',Validators.required)
   })
 

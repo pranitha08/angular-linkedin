@@ -3,9 +3,9 @@ export class Education {
   school: string;
   location: string;
   degree: string;
+  startDate: string;
+  endDate: string;
   field: string;
-  start_date: string;
-  end_date: string;
   grade: string;
   description:string;
 }

@@ -12,7 +12,7 @@ export class SkillComponent implements OnInit {
 
   skillForm = new FormGroup({
     id: new FormControl('', Validators.required),
-    skill_name: new FormControl('',Validators.required)
+    skillName: new FormControl('',Validators.required)
   })
   userId:number;
 

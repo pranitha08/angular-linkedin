@@ -15,7 +15,7 @@ export class AddressComponent implements OnInit {
     street: new FormControl('',Validators.required),
     city: new FormControl('',Validators.required),
     state: new FormControl('',Validators.required),
-    pin_code: new FormControl('',Validators.required),
+    pinCode: new FormControl('',Validators.required),
     country: new FormControl('',Validators.required)
   })
 

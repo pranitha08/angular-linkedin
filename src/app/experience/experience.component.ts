@@ -11,11 +11,11 @@ import {FormControl, FormGroup, Validators} from "@angular/forms";
 export class ExperienceComponent implements OnInit {
   experienceForm = new FormGroup({
     id: new FormControl('', Validators.required),
-    company_name: new FormControl('',Validators.required),
+    companyName: new FormControl('',Validators.required),
     location: new FormControl('',Validators.required),
     position: new FormControl('',Validators.required),
-    start_date: new FormControl('',Validators.required),
-    end_date: new FormControl('',Validators.required),
+    startDate: new FormControl('',Validators.required),
+    endDate: new FormControl('',Validators.required),
     description: new FormControl('',Validators.required)
   })
   userId:number;

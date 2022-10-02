@@ -1,9 +1,9 @@
 export class Experience {
   id: number;
-  company_name: string;
+  companyName: string;
   location: string;
   position: string;
-  start_date: string;
-  end_date: string;
+  startDate: string;
+  endDate: string;
   description:string;
 }

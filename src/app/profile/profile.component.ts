@@ -11,10 +11,10 @@ import {FormControl, FormGroup, Validators} from "@angular/forms";
 export class ProfileComponent implements OnInit {
   profileForm = new FormGroup({
     id: new FormControl('', Validators.required),
-    first_name: new FormControl('',Validators.required),
-    last_name: new FormControl('',Validators.required),
+    firstName: new FormControl('',Validators.required),
+    lastName: new FormControl('',Validators.required),
     dob: new FormControl('',Validators.required),
-    contact_no: new FormControl('',Validators.required),
+    contactNo: new FormControl('',Validators.required),
     description: new FormControl('',Validators.required)
   })
   userid:number;
@@ -31,7 +31,8 @@ export class ProfileComponent implements OnInit {
 
   onSubmit(){
     const request = this.profileForm.getRawValue();
-    if(request.first_name==null || request.last_name==null){
+
+    if(request.firstName==null || request.lastName==null){
       alert("please Fill all the fields");
     }
     this.profileService.addProfile(this.userid,request).subscribe(data => {

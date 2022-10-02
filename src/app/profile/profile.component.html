@@ -5,11 +5,12 @@
         <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
           <h2>Edit Details</h2>
           <mat-form-field appearance="fill">
-            <input placeholder="First name" name="first_name" formControlName="first_name" matInput required>
+
+            <input placeholder="First name" name="firstName" formControlName="firstName" matInput required>
           </mat-form-field>
           <br>
           <mat-form-field appearance="fill">
-            <input placeholder="Last Name" name="last_name" formControlName="last_name" matInput required>
+            <input placeholder="Last Name" name="lastName" formControlName="lastName" matInput required>
           </mat-form-field>
           <br>
           <mat-form-field appearance="fill">
@@ -17,7 +18,7 @@
           </mat-form-field>
           <br>
           <mat-form-field appearance="fill">
-            <input placeholder="Contact No" formControlName="contact_no" name="contact_no" matInput required>
+            <input placeholder="Contact No" formControlName="contactNo" name="contactNo" matInput required>
           </mat-form-field>
           <br>
           <mat-form-field appearance="fill">
